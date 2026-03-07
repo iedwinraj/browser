@@ -31,6 +31,7 @@ public class LaunchBrowserTest {
         // You can add assertions here if needed
         String title = driver.getTitle();
         System.out.println("Page Title: " + title);
+        System.out.flush();
     }
 
     @AfterClass
